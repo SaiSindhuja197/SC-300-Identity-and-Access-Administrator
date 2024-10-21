@@ -45,7 +45,7 @@ In this task, you will create a Windows 11 VM from the Azure Marketplace, config
 
    - Resource Group: Select the existing resource group from the dropdown (1)
    - Virtual Machine Name: **VM-<inject key="DeploymentID" enableCopy="false"/> (2)**
-   - Size: **Standard B2s (3)**
+   - Size: **See all sizes > B2s > Standard B2s (3)**
    - Username: **azureuser (4)**
    - Password: **Password@..!!(5)**
    - Confirm Password: **Password@..!! (6)**
@@ -124,7 +124,7 @@ In this task, you will create a secret in your Key Vault by specifying the name 
 
 1. Navigate to your newly created Key Vault.
 
-1. From the left-hand navigation pane, under **Objects**, select **Secrets** and click on **+ Generate/Import**.
+1. From the left-hand navigation pane, under **Objects**, select **Secrets (1)** and click on **+ Generate/Import (2)**.
 
    ![](./media/lab16-7.png)
    
@@ -155,10 +155,10 @@ In this task, you will grant access to your Key Vault by creating an access poli
 1. On the **keyvault-<inject key="DeploymentID" enableCopy="false"/> | Secrets**, from the left-hand navigation pane, select **Access policies** and click on **+ Create**.
    ![](./media/lab16-8.png)
 
-1. On the **Create an access policy**, under Configure from template, choose Secret Management from the drop-down. Select **Prinicpal**.
+1. On the **Create an access policy**, under Configure from template, choose **Secret Management (1)** from the drop-down. Select **Next (2)**.
    ![](./media/lab16-(9).png)
    
-1. On the **Principal** page, in the search field enter the name **VM-<inject key="DeploymentID" enableCopy="false"/>**, and select it. Select **Next**.
+1. On the **Principal** page, in the search field enter the name **VM-<inject key="DeploymentID" enableCopy="false"/> (1)**, and select it. Select **Next (2)**.
 
    ![](./media/lab16-10.png)
    
