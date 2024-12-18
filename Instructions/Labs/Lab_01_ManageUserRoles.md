@@ -5,7 +5,7 @@
 
 Your company recently hired a new employee who will perform duties as an application administrator. You must create a new user and assign the appropriate role.
 
-#### Estimated time: 60 minutes
+#### Estimated time: 90 minutes
 
 ## Lab Objectives
 
